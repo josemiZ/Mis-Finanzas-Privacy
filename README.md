@@ -36,4 +36,8 @@ La fecha visible y el atributo `datetime` del elemento `<time>` deben actualizar
 
 ## Privacidad del propio sitio
 
-El sitio no incluye JavaScript, formularios, analítica, cookies, fuentes remotas ni recursos de terceros. El único enlace externo funcional es el contacto mediante correo electrónico.
+El sitio no incluye JavaScript, formularios, analítica, cookies, fuentes remotas ni recursos de terceros. Incluye enlaces de contacto y a la documentación de privacidad de Firebase. La recopilación de Analytics y Crashlytics descrita corresponde a la aplicación Android, no a esta página web.
+
+## Policy synchronization — September 26, 2026
+
+The nine policy sections and summary match the Android project’s `docs/privacy-policy/index.html`. Preserve this site’s layout, anchor IDs, favicon and GitHub Pages URL when updating the copy. The current policy revision is September 26, 2026. Verify Analytics retention in its console; no configured retention duration has been assumed.

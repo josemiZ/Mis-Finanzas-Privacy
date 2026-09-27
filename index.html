@@ -6,16 +6,16 @@
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#f5faf5" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#111612" media="(prefers-color-scheme: dark)">
-  <meta name="description" content="Política de privacidad de Mis Finanzas: datos locales, sin cuenta y sin publicidad.">
+  <meta name="description" content="Política de privacidad de Mis Finanzas: registros financieros locales y diagnóstico y uso automáticos con Firebase.">
   <meta name="author" content="Jose Miguel Zea Guerrero">
   <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="es_ES">
   <meta property="og:title" content="Política de privacidad — Mis Finanzas">
-  <meta property="og:description" content="Cómo Mis Finanzas protege y trata tus datos en el dispositivo.">
+  <meta property="og:description" content="Registros financieros locales, datos técnicos enviados a Firebase y conservación de la información.">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Política de privacidad — Mis Finanzas">
-  <meta name="twitter:description" content="Cómo Mis Finanzas protege y trata tus datos en el dispositivo.">
+  <meta name="twitter:description" content="Registros financieros locales, datos técnicos enviados a Firebase y conservación de la información.">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <title>Política de privacidad — Mis Finanzas</title>
   <style>
@@ -374,11 +374,11 @@
     <header class="hero" id="inicio">
       <p class="eyebrow">Privacidad por diseño</p>
       <h1>Política de privacidad</h1>
-      <p class="summary">Mis Finanzas funciona sin cuenta y guarda tus datos financieros localmente en tu dispositivo. El desarrollador no recibe, recopila ni vende esos datos.</p>
-      <p class="updated">Última actualización: <time datetime="2026-09-05">5 de septiembre de 2026</time></p>
+      <p class="summary">Mis Finanzas funciona sin cuenta y guarda tus registros financieros en tu dispositivo. Desde el primer inicio, la versión de producción envía automáticamente datos técnicos de diagnóstico y uso a Firebase para mejorar la aplicación. No vendemos tus datos financieros.</p>
+      <p class="updated">Última actualización: <time datetime="2026-09-26">26 de septiembre de 2026</time></p>
       <ul class="principles" aria-label="Principios principales de privacidad">
         <li>Sin cuenta</li>
-        <li>Datos en tu dispositivo</li>
+        <li>Registros financieros locales</li>
         <li>Sin venta de datos</li>
       </ul>
     </header>
@@ -387,55 +387,47 @@
       <article class="policy" aria-label="Contenido de la política de privacidad">
         <section id="responsable">
           <h2><span class="number" aria-hidden="true">01</span> Responsable</h2>
-          <p><strong>Aplicación:</strong> Mis Finanzas</p>
-          <p><strong>Desarrollador:</strong> Jose Miguel Zea Guerrero</p>
-          <p><strong>Contacto de privacidad:</strong> <a href="mailto:mickyonmotion@gmail.com">mickyonmotion@gmail.com</a></p>
+          <p>Mis Finanzas es desarrollada por Jose Miguel Zea Guerrero. Para consultas relacionadas con esta política o con la privacidad puedes escribir a mickyonmotion@gmail.com.</p>
         </section>
 
         <section id="datos">
           <h2><span class="number" aria-hidden="true">02</span> Datos tratados por la aplicación</h2>
-          <p>La aplicación permite introducir un nombre de perfil y datos de organización financiera: moneda y periodos financieros, cuentas, nombres de métodos de pago y entidades emisoras, transacciones, importes, fechas, notas, categorías, conceptos, comercios y conciliaciones.</p>
-          <p>No solicita números completos de tarjetas, credenciales bancarias, ubicación, contactos, fotografías ni identificadores publicitarios.</p>
+          <p>La aplicación permite introducir un nombre de perfil y datos de organización financiera: moneda y periodos financieros, cuentas, nombres de métodos de pago y entidades emisoras, transacciones, importes, fechas, notas, categorías, conceptos, comercios y conciliaciones. No solicita números completos de tarjetas, credenciales bancarias ni permisos de ubicación, contactos o fotografías. Analytics puede estimar una ubicación aproximada a partir de la dirección IP; esto no utiliza el GPS ni un permiso de ubicación.</p>
         </section>
 
         <section id="almacenamiento">
           <h2><span class="number" aria-hidden="true">03</span> Almacenamiento y finalidad</h2>
-          <p>Los datos se procesan exclusivamente en el dispositivo para registrar movimientos, calcular saldos, generar paneles y análisis, facilitar conciliaciones y crear exportaciones solicitadas por el usuario.</p>
-          <p>La aplicación no requiere una cuenta, no tiene permiso de Internet y no transmite estos datos al desarrollador ni a servidores propios.</p>
+          <p>Los registros financieros se procesan en el dispositivo para registrar movimientos, calcular saldos, generar paneles y análisis, facilitar conciliaciones y crear exportaciones solicitadas por el usuario. Estas funciones no requieren conexión permanente ni una cuenta. La versión de producción utiliza Internet para enviar automáticamente información técnica de diagnóstico y uso a Firebase desde el primer inicio; no dispone de un interruptor para desactivar esa recopilación dentro de la aplicación.</p>
         </section>
 
         <section id="terceros">
           <h2><span class="number" aria-hidden="true">04</span> Compartición y terceros</h2>
-          <p>No vendemos ni compartimos datos financieros con terceros. Al exportar un archivo CSV, el usuario elige voluntariamente otra aplicación o servicio mediante el menú de compartir de Android. Desde ese momento, el tratamiento de esa copia se rige por las condiciones del destinatario elegido.</p>
-          <p>Android y Google Play pueden tratar información técnica necesaria para distribuir y ejecutar la aplicación conforme a sus propias políticas. El proveedor que aloje esta página pública también puede procesar registros técnicos básicos, como la dirección IP y el agente de usuario, de acuerdo con su propia política.</p>
+          <p>No vendemos ni enviamos intencionadamente tus registros financieros a Firebase. Al exportar un CSV, eliges voluntariamente otra aplicación o servicio mediante el menú de compartir de Android; el tratamiento de esa copia se rige por las condiciones del destinatario. Firebase Crashlytics recibe informes de fallos y diagnóstico; Firebase Analytics recibe eventos automáticos de uso, sesiones e identificadores de instancia de la aplicación. Estos servicios de Google también pueden tratar identificadores de instalación, versión de la aplicación, características del dispositivo y ubicación aproximada derivada de la IP. No añadimos nombres de perfil, importes, cuentas, tarjetas ni notas financieras a eventos, claves de diagnóstico o identificadores de usuario. La recopilación del identificador publicitario, el almacenamiento publicitario, el uso de datos para publicidad y las señales de personalización publicitaria están desactivados en la configuración de la aplicación. Firebase cifra los envíos en tránsito. Google y sus proveedores pueden procesar información fuera de tu país conforme a sus condiciones. Más información: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a>.</p>
         </section>
 
         <section id="seguridad">
           <h2><span class="number" aria-hidden="true">05</span> Copias de seguridad y seguridad</h2>
-          <p>Las copias de seguridad de Android están desactivadas para Mis Finanzas. La base de datos permanece dentro del almacenamiento privado de la aplicación, protegido por los controles del sistema operativo.</p>
-          <p>Ningún sistema es completamente infalible. Recomendamos proteger el dispositivo con bloqueo de pantalla y mantener Android actualizado.</p>
+          <p>La aplicación desactiva las copias de seguridad automáticas y excluye sus datos de las transferencias entre dispositivos mediante las reglas de Android. La base de datos permanece en el almacenamiento privado de la aplicación, protegido por los controles del sistema operativo. No ofrece una copia de seguridad remota de tus registros financieros. Si borras los datos de la app o la desinstalas, esos registros pueden perderse. Las exportaciones CSV son informes y no una copia restaurable. Recomendamos proteger el dispositivo con bloqueo de pantalla y mantener Android actualizado.</p>
         </section>
 
         <section id="conservacion">
           <h2><span class="number" aria-hidden="true">06</span> Conservación y eliminación</h2>
-          <p>Los datos permanecen en el dispositivo mientras se utiliza la aplicación. Las transacciones enviadas a la papelera pueden restaurarse durante 60 días y después se eliminan definitivamente de forma automática.</p>
-          <p>El usuario también puede borrar todos los datos desde los ajustes de Android o desinstalando la aplicación. Las copias CSV guardadas o compartidas fuera de Mis Finanzas deben eliminarse desde su ubicación de destino.</p>
+          <p>Los registros financieros permanecen en el dispositivo mientras utilizas la aplicación. Las transacciones enviadas a la papelera y las categorías, conceptos o comercios archivados pueden restaurarse durante 60 días; después son elegibles para la limpieza automática, cuya ejecución depende de la programación de Android. Puedes borrar los datos locales desde los ajustes de Android o desinstalar la aplicación. Las copias CSV externas deben eliminarse desde su ubicación de destino. Borrar los datos locales o desinstalar no elimina automáticamente la información técnica ya enviada a Google. Según la documentación de Firebase, Crashlytics conserva informes e identificadores asociados durante 90 días antes de iniciar su eliminación. La conservación de los datos de Analytics depende de la configuración de la propiedad de Google Analytics y de sus reglas para datos agregados; puedes consultar la configuración aplicable mediante el correo de contacto.</p>
         </section>
 
         <section id="derechos">
           <h2><span class="number" aria-hidden="true">07</span> Derechos y control</h2>
-          <p>Como los datos financieros no se envían al desarrollador, éste no puede acceder a ellos, corregirlos ni recuperarlos de forma remota. El usuario mantiene el control mediante las funciones de edición, papelera, restauración, exportación y eliminación disponibles en el dispositivo.</p>
-          <p>Para cualquier duda sobre privacidad puedes escribir a <a href="mailto:mickyonmotion@gmail.com">mickyonmotion@gmail.com</a>.</p>
+          <p>El desarrollador no dispone de una copia remota de tus registros financieros para corregirlos o recuperarlos. Puedes utilizar las funciones locales de edición, papelera, restauración y exportación. Para consultas o solicitudes relativas a la información técnica enviada a Firebase, escribe a mickyonmotion@gmail.com. La gestión de estas solicitudes depende de las herramientas del servicio y de la posibilidad de identificar los datos pertinentes, ya que la aplicación no tiene cuentas de usuario. No envíes por correo tus registros financieros, credenciales bancarias ni números de tarjeta.</p>
         </section>
 
         <section id="menores">
           <h2><span class="number" aria-hidden="true">08</span> Menores</h2>
-          <p>Mis Finanzas es una herramienta general de finanzas personales y no está dirigida específicamente a menores de 13 años. No recopilamos deliberadamente datos personales de menores.</p>
+          <p>Mis Finanzas es una herramienta general de finanzas personales y no está dirigida específicamente a menores de 13 años. La recopilación técnica automática descrita en esta política se aplica a las instalaciones de la versión de producción.</p>
         </section>
 
         <section id="cambios">
           <h2><span class="number" aria-hidden="true">09</span> Cambios en esta política</h2>
-          <p>Esta política se actualizará cuando cambien las funciones o el tratamiento de datos. La versión vigente indicará siempre su fecha de última actualización dentro de la aplicación y en esta página pública.</p>
+          <p>Esta política se actualizará cuando cambien las funciones o el tratamiento de datos. La versión vigente indicará siempre su fecha de última actualización dentro de la aplicación y en su página pública.</p>
         </section>
 
         <aside class="contact-card" aria-labelledby="contacto-titulo">
@@ -465,6 +457,7 @@
   </main>
 
   <footer class="site-footer">
+    <p>El proveedor que aloja esta página puede procesar registros técnicos como la dirección IP y el agente de usuario, conforme a su política.</p>
     <p>© 2026 Jose Miguel Zea Guerrero · Mis Finanzas</p>
   </footer>
 </body>
